@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+ /*  SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children (filho)
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        /* a:active - Pseudo-classe (quando se clica no texto) */
+         
+
+        .ge:active {
+            color: green;
+        }
+
+        .ig:active {
+            color: blueviolet;
+        }
+
+        a::after {
+            content: ' [link]';
+            color: gray;
+        }

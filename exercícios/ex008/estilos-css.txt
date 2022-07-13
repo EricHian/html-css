@@ -1,0 +1,26 @@
+
+<CURSO EM VÍDEO>
+
+..Estilo em CSS inline.. <!--Esse estilo não é muito utilizado, somemte para configurações pontuais-->
+
+style="backgroud-color: ligthblue;"
+
+backgroud-color:: cor de fundo
+color:: cor da letra
+text-align: justify:: deixar o texto alinhado
+font-size:: (fonte-base) tamanho da fonte
+
+
+..Estilos em CSS interno ou local.. <!--É mais vantajoso do que CSS inline, porém é utilizado quando for configurar somente uma página-->
+
+style:: irá ficar no <head>
+
+
+..Estilos em CSS externo.. <!--É a maneira mais versátil e mais usada-->
+
+iremos criar um arquivo style.css no <head> do HTML - link: css
+
+
+
+PODEMOS USAR OS TRÊS ESTILOS EM UMA MESMA PÁGINA - CSS INLINE, CSS INTERNO OU LOCAL E CSS EXTERNO.
+

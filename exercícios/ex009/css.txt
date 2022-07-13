@@ -1,0 +1,386 @@
+...CURSO EM VÍDEO...
+
+
+	SIGNIFICADOS
+
+- right: direita
+- left: esquerda
+- top: cima
+- bottom: baixo
+- height: altura
+- width: largura
+- padding: preenchimento
+- margin: margem
+- outline: contorno ou traçado
+- border-radiuns: raio de borda
+- box-shadow: sombra da caixa
+- text-align: alinhamento de texto
+- text-indent: recuo de texto (faz com que crie um parágrafo ou identação no texto)
+- background: fundo
+- text-shadow: sombra de texto 
+- font-size: tamanho da fonte
+- weight: peso
+- font-weight: espessura da fonte (lighter, normal, bold, bolder) - para negrito
+- font-style: italic, normal - itálico
+- text-decoration: sublinhado
+- inline-block: bloco em linha 
+- display: mostrar
+- hover: flutuar (passar o mouse em cima)
+- text-decoration: decoração de texto
+- none: nenhum
+- underline: sublinhado
+- active: ativo (quando se clica no texto)
+- after: depois
+- before: antes
+- border: borda
+- dashed: pontilhado
+- double: linha dupla
+- outline: contorno 
+- head: cabeça 
+- header: cabeçalho 
+- nav: navegação 
+- main: principal
+- section: seção 
+- footer: rodape
+- aside: a parte, de lado 
+- article: artigo
+
+
+- usando: background-attachment: fixed; (deixa o fundo do site fixo)
+
+
+..HTML5 E CSS3.. - MÓDULO 2
+
+AULA 01:
+..PSICOLOGIA DAS CORES..
+
+- a importância das cores, o poder visual no seu site, utilizando, core e tonalidades corretas
+
+
+AULA 02:
+..REPRESENTANDO CORES EM CSS3..
+
+- pode ser representado por nomes, códigos hexadecimais, rgb e hsl.
+- pode ser feito também a transparência dessa cor, no seletor que está ao lado. 
+
+
+AULA 03:
+..HARMONIA DE CORES..
+
+::Círculo cromático::
+
+- cores primárias - amarelo, vermelho e azul, tem simetria no circulo cromático
+- cores secundárias - laranja, violeta e verde
+- cores terciárias - amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado
+
+Temperatura de cores: Quentes e frias
+
+Escolher a paleta de cores ideal para o site que iremos criar: (cores para a paleta, de 3 a 5 cores: recomendado 4 cores por paleta)
+
+- cores complementares no círculo cromático (cores que tem mais contrastes entre si)
+..cores opostas no círculo cromático..
+
+- cores análogas (são cores que não tem um contraste muito grande entre elas)
+..cores que estão ao lado uma da outra..
+
+- cores análogas e uma complementar (pega as cores análogas e a cor oposta a cor principal, criando uma paleta de 4 cores)
+
+- cores análogas relacionadas (juntar duas cores vizinhas e depois pular uma cor)
+
+- cores intercaladas (escolhe uma cor, depois pula uma cor, escolha a cor seguinte e depois pula denovo)
+
+- cores triádicas (pular 3 cores, formando um triângulo equilátero)
+
+- cores em quadrado (pular 2 cores, formando um quadrado)
+
+- cores tetrádicas (escolha uma cor e a cor oposta, depois escolha outra cor e a oposta a ela, formando um retângulo)
+
+- monocromia (trabalha com apenas uma cor, mudando suas características)
+
+
+AULA 04
+..PALETA DE CORES..
+..FERRAMENTAS..
+
+ADOBE COLOR - TEM TUDO PARA A SUA PALETA DE CORES - COM OS CÓDIGOS
+
+
+AULA 05
+..COMO CAPTURAR CORES DA TELA..
+
+- EXTENSÃO: já está no meu google chrome 
+- ou também pode tirar print da tela e jogar lá no adobe color, para extrair as cores
+
+
+AULA 06
+..COMO CRIAR DEGRADÊ NO CSS.. <!--configuração global da CSS (*)>
+
+::usando: background-image: linear-gradient(to right, white, blue);::
+
+- right: direita
+- left: esquerda
+- top: cima
+- bottom: baixo
+- width: largura
+- padding: preenchimento
+- margin: margem
+- border-radiuns: raio de borda
+- box-shadow: sombra da caixa
+- text-align: alinhamento de texto
+- text-indent: recuo de texto (faz com que crie um parágrafo ou identação no texto)
+- background: fundo
+- text-shadow: sombra de texto 
+- font-size: tamanho da fonte
+- weight: peso
+- font-weight: espessura da fonte (lighter, norma, bold, bolder) - para negrito
+- font-style: italic, normal - itálico
+- text-decoration: sublinhado
+
+- usando: background-attachment: fixed; (deixa o fundo do site fixo)
+
+
+AULA 07
+..CRIANDO UM EXEMPLO REAL.. (Aqui foi feito uma page simples, com as inmformações acima) 
+
+
+AULA 08
+..PRIMEIROS PASSOS EM TIPOGRAFIA..
+Parte 01
+
+"Emoções das fontes"
+
+Parte 02..Anatomia do tipo..(como deverá ser escrito)
+
+- estudo básico de tipografia
+
+- o tamanho das letras, é baseada no tamanho da letra x
+
+- altura do corpo que colocamos, para configurar no CSS
+
+- fontes serifada, facilita a leitura
+
+- familía tipografica
+
+
+::CATEGORIA DE FONTES::
+
+- serifadas
+- sans-serif
+- monoespaçadas
+- handwriting
+- display
+
+
+AULA 09
+..FAMÍLIAS DE FONTES COM CSS..
+
+
+AULA 10
+..TAMANHO DE FONTES E SUAS MEDIDAS..
+
+medidas absolutas: cm, mm, in, px, pt(ponto), pc(paica)
+medias relativas: em(tamanho atual da fonte), ex(tamanho da altura x de uma fonte), rem, vw(tamanho da sua tela), vh, %  
+
+normalmente é usado px e em: 16px = 1em
+
+
+AULA 11
+..PESO, ESTILO E SHORTHAND..
+
+font-family:
+font-weight:
+font-size:
+font-style
+(Essa combinação é muito utilizada)
+
+
+shorthand font
+como é feito(ordem) - font: italic bolder 3em 'work Sans', sans-serif;
+
+
+AULA 12
+..USANDO O GOOGLE FONTS.. 
+
+
+AULA 13
+..USANDO FONTES EXTERNAS BAIXADAS.. 
+
+- é necessário usar @font-face
+
+ex: 
+@font-face {
+	font-family: Valentine;
+	src: url('fonts/Valentine Moment.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;	
+}
+
+
+
+AULA 14
+..CAPTURANDO AS FONTES USADAS EM UM SITE..
+
+USANDO UM PLUGIN(EXTENSÃO) DO GOOGLE CHROME
+
+
+AULA 15
+..FONTES DENTRO DE IMAGENS..
+
+
+AULA 16
+..ALINHAMENTO DE TEXTOS COM CSS..
+
+TODA ESTILIZAÇÃO VAI SER FEITA NO CSS, DE TEXTOS , TÍTULOS, PARÁGRAFOS, ETC..
+
+
+AULA 17
+..SELETORES PERSONALIZADOS.. (usando o id com o css)
+
+id = (identificador) no css é #
+class = no css é .
+
+podemos usar somente um id por elemento
+podemos usar class em mais de 1 elemento
+podemos usar id e class no mesmo elemento 
+
+
+AULA18
+..PSEUDO-CLASSES.. (ESTADO DE UM DETERMINADO ELEMENTO)
+
+É REPRESENTADO POR :
+
+ex: div:hover {
+	background-color: yellow; 
+
+}
+
+div > p (isso significa que o p é filho da tag div)
+
+
+
+AULA 19
+..PSEUDO-ELEMENTOS EM CSS..
+
+É REPRESENTADO POR ::
+
+
+AULA 20
+..MODELO DE CAIXAS.. (PRIMEIROS PASSOS)
+
+- box-level
+ex: 
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+- inline-level 
+ex: 
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>
+
+
+AULA 21
+..MODELO DE CAIXAS NA PRÁTICA.. (PARTE 01)
+
+user agent = ta ligado ao navegador
+
+ex:
+CSS
+
+ h1 {
+            background-color: blue;
+            color: white;
+            height: 200px;
+            width: 200px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+
+
+
+
+
+RESPONSABILIDADES E ATRIBUIÇÕES (MOB)
+
+Suporte nas rotinas de Tecnologia da empresa: sistemas operacionais e aplicativos para o usuário (Navegadores, Office 365, Antivírus e demais aplicações de desktop), realizando atendimentos à usuários.
+Manutenção em Desktops e Notebooks.
+Suporte ao usuário final em sistemas operacionais Windows e Mac e ferramentas internas.
+Instalação e configuração de impressoras em rede, mapeamento de pastas. 
+Prover melhoria contínua de processos e ferramentas.
+
+
+margin auto; irá centralizar 
+
+
+AULA 22
+..GROUPING TAG EM HTML..
+
+grouping tags de forma semântica
+
+- header
+- nav
+- main
+- section
+- aside
+- article
+- footer
+
+
+AULA 23
+..SOMBRA NAS CAIXAS..
+
+- box-shadow: 1px(borda horizontal) 1px(borda vertical) 1px(espalhamento) 1px(embaçamento) black; 
+
+
+AULA 24
+..CAIXAS COM VÉRTICES ARREDONDADOS.. 
+
+>> border-radius: 10px; 
+
+tem também: 
+
+border-top-rigth-radius; 
+border-top-left-radius; 
+border-botoom-rigth-radius; 
+border-botoom-left-radius;  
+
+variação de código: border-radius: 10px 20px; (superior e inferior da direita) (superior e inferior da esquerda)
+	      
+
+
+AULA 25
+..BORDAS DECORADAS.. ( NÃO HÁ NECESSIDADE )
+
+
+
+CAPITULO 17 - DESAFIO 
+
+
+
+
+

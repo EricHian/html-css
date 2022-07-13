@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon2.ico.ico" type="image/x-icon">
+    <title>Aprendendo HTML5</title>
+</head>
+<body>
+    <p>Veja a imagem abaixo</p> 
+    <img src="bebida-650.jpg" alt="Imagem de copo com bebida"> 
+
+    <!--APENDENDO A COLOCAR ICONE DE FAVORITOS, ESTÁ DEMONTRADO NA TAG LINK ACIMA - FAVICON.ICO-->
+    <p>atalho <strong>para envelopar alguma coisa</strong></p> <!-- USE AS TECLAS CTRL+SHIFT+P -->
+
+    <h1>Principais formatações</h1>
+    <h2>Texto marcado</h2> <!--USANDO A TAG MARK-->
+    <p><mark style="background-color: lime;">temos aqui um texto marcado</mark></p>
+
+    <h2>Texto pequeno</h2>
+    <p>Aqui iremos ter um texto <small>pequeno</small></p>
+
+    <h2>Texto deletado</h2>
+    <p>aqui temos um texto <del>deletado</del></p>
+
+    <h2>Texto sublinhado</h2>
+    <p>aqui temos um texto sublinhado, usando a tag <ins>inserido</ins></p>
+
+    <h2>Aqui vamos ter um texto sobrescrito</h2>
+    <p>texto sobrescrito x<sup>20</sup>-3O</p>
+
+    <h2>Aqui temos um texto sub-escrito</h2>
+    <p>texto sub-escrito H<sub>2</sub>O</p>
+
+    <h1>Outros tipos de formatação</h1>
+    <h2>código-fonte/Pré-formatação</h2>
+    <p>o comando <code>document.getElementById('teste')</code>, é escrito em comando JavaScript</p>
+    <pre>
+        <code>
+    1+2-3.4
+    3-12
+    =-9
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Eu Eric sou: <q>lindo</q></p> <!--A TAG <q> COLOCA ASPAS A SUA FRASE, É BOM USAR ESSA TAG, EM CITAÇÕES SIMPEs-->
+    <h2>Citações completas</h2>
+    <p>Segundo o bilionário Elon Musk:</p>
+    <blockquote cite="https://exame.com/carreira/elon-musk-completa-50-anos-confira-30-frases-do-bilionario/">
+        Quando algo é importante o suficiente, você o faz mesmo que as probabilidades não estejam a seu favor
+    </blockquote>
+
+    <h2>Abreviações</h2> <!--A TAG <abbr> faz com que uma abreviação como HTML e CSS, apareça o nome completo, simplesmente passando o cursor por cima da frase-->
+    <p>Estou estudando <abbr title="Hyper Text Markup">HTML5</abbr> e <abbr title="Cascading Styles Sheets">CSS3</abbr></p>
+
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1"> <!-- TYPE IRÁ ORGANIZAR ENTRE SEQUÊNCIA NÚMERICA, POR LETRAS, MAIÚSCULA OU MINÚSCULA, ROMANO MINUSCULO OU MAIUSCULO -->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Organizar a casa</li>
+        <li>Estudar</li>
+        <li>Ir para a faculdade</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>pão</li>
+        <li>detergente</li>
+        <li>sabonete</li>
+        <li>sabão de pedra</li>
+    </ul>
+
+    <h2>Listas mistas</h2>
+    <ol>
+        <li>Exatas</li>
+        <ul type="square">
+            <li>Matemática</li>
+            <li>Física</li>
+            <li>Química</li>
+        </ul>
+        <li>Humanas</li>
+        <ul type="square">
+            <li>Português</li>
+            <li>História</li>
+            <li>Geografia</li>
+        </ul>
+    </ol>
+    <h2>Lista de definição</h2>
+    <dl>
+        <dt>HTML</dt> <!--Termo-->
+        <dd>Linguagem de marcação para a criação de um site</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>  
+</body>
+</html>

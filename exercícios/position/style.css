@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Todos os elementos por padrão são estáticos - static*/
+
+/*POSITION:
+static - posição padrão.
+fixed - fixo na página .
+relative - posicionado em sua posição normal .
+absolute - posicionado em relação ao seu elemento pai, no caso o relative, caso não tenha um relative, ele será posicionado em releção ao corpo do documento.
+sticky - o elemento fica colado na tela, independente do scroll.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
