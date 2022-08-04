@@ -10,13 +10,19 @@
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-repeat: no-repeat; /*no repeat, repeat-y, repeat-x e repeat*/
+            background-size: cover; /*cover, contain e auto*/
+            background-attachment: fixed; /*o padrão é o scroll*/
+           
+            /* Shorthand - background
+                color > image > position > repeat > (size) > attanchment */
+
+            /*background: black url('imagens/wallpaper002.jpg') center center no-repeat cover (fixed);*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid black;
